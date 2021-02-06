@@ -1,0 +1,115 @@
+body {
+  background-color: #A3223C;
+  padding: 100px;
+  justify-content: space-between;
+  border-radius: 80px;
+  color: white;
+}
+
+h2{
+  font-family: Verdana ;
+}
+
+#home {
+  font-family: Verdana ;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  padding-left: 80px;
+}
+#home #start {
+  display: grid;
+  grid-template-rows:  1fr 1fr 1fr 1fr ;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  padding-left: 20px;
+}
+
+#home a {
+  text-decoration: none;
+  grid-column: 1/1;
+  font-size: 68px;
+  text-align: left;
+  color: white;
+}
+
+#home img {
+  grid-column: 2/2;
+  grid-row: 1/7;
+  max-height: 339px;
+}
+
+#home #second {
+  font-weight: bold;
+}
+
+#home #third {
+  font-weight: bold;
+}
+
+
+
+#first .about { display: none;}
+#first:hover .hi { display: none;}
+#first:hover .about {
+  display: inline;
+  margin-left: 10px;
+}
+
+#second .experience { display: none;}
+#second:hover .i {display: none;}
+#second:hover .experience {
+  display: inline;
+  margin-left: 10px;
+}
+
+#third .skills { display: none;}
+#third:hover .am {display: none;}
+#third:hover .skills {
+  display: inline;
+  margin-left: 10px;
+}
+
+#fourth .contact {display: none;}
+#fourth:hover .douglas {display: none;}
+#fourth:hover .contact {
+  display: inline;
+  margin-left: 10px;
+}
+
+
+li {
+  list-style-type: none;
+}
+
+#about {
+  text-align: left;
+  padding-right: 450px;
+}
+
+#about img {
+
+}
+
+#experience a{
+  color: white;
+  font-weight: bold;
+}
+
+#skills li {
+  margin-top: 10px;
+}
+
+#back img {
+  max-height: 25px;
+}
+
+#back #empty { display: none;}
+#back:hover #full {display: none;}
+#back:hover #empty {display: inline;}
+
+#contact a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
